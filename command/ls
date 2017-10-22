@@ -1,2 +1,4 @@
 ls -i
 	show file include inode number
+ls -l
+	display items as long type
