@@ -1,0 +1,8 @@
+Git là gì?
+	Để quản lý source code, tài liệu dựa trên phiên bản, cho phép review log, lấy lại các phiên bản trước.
+	Khi làm việc với git luôn luôn nhớ, mọi thao tác commit, merge là trên local repository, chỉ làm việc với remote repository thông qua 2 hành động:
+	git push: đưa những gì ở local repository lên remote repository
+	git pull
+
+Links:
+	https://git-scm.com/docs
