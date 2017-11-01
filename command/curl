@@ -1,7 +1,7 @@
 curl: là command line để đơn giản hoá việc sử dụng các command liên quan telnet, ftp, http …. theo 1 chuẩn thống nhất của curl
 Ví dụ:
 	curl http://localhost
-		trả về nội dung của url trên, như vậy nếu không xác định giao thức, thì url phải chứa giao thức để curl biết được đó là giao thức nào
+		trả về nội dung của url trên, như vậy nếu không xác định giao thức, thì url phải chứa giao thức để curl biết được đó là giao thức nào, và nếu không có giao thức nào được xác định, thì mặc định nó là http
 	curl -T localfile ftp://ftp.example.com/dir/path/remote-file
 		Upload localfile
 	curl -u user:pass -T localfile ftp://localhost/
