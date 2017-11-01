@@ -1,0 +1,8 @@
+curl: là command line để đơn giản hoá việc sử dụng các command liên quan telnet, ftp, http …. theo 1 chuẩn thống nhất của curl
+Ví dụ:
+	curl http://localhost
+		trả về nội dung của url trên, như vậy mặc định nó là http bình thường		
+	curl -T localfile ftp://ftp.example.com/dir/path/remote-file
+		Upload localfile
+	curl -u user:pass -T localfile ftp://localhost/
+		Upload localfile using user/pass to ftp server
